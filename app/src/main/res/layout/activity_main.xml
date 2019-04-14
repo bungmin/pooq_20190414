@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="15dp"
+            android:gravity="center|fill"
+            android:text="@string/contentTitle"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="이름"
+            android:background="@drawable/xml_border"
+            android:textColor="#8041D9"
+            android:textColorHint="#8041D9"
+            />
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xml_border"
+            android:textSize="20dp"
+            android:hint="이메일"
+            android:textColor="#8041D9"
+            android:textColorHint="#8041D9"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:gravity="fill"
+                android:text="이벤트 참여 등 회원 확인을 위해 고객님의 이메일 주소를\n입력해주세요"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F6F6"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <CheckBox
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:buttonTint="#8041D9"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="전체 약관에 동의합니다."
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="∨"
+                    android:textSize="13dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#8041D9"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:text="서비스 이용약관(필수)"
+                    />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="∨"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#8041D9"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:text="개인정보처리방침(필수)"
+                    />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="∨"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#8041D9"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:text="유료상품 이용약관(필수)"
+                    />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="∨"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#8041D9"
+
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:text="이벤트 마케팅 수신동의(선택)"
+                    />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="∨"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:text="카카오 계정으로 POOQ가입 시, 카카오 서비스를 탈퇴할 경우 POOQ이용에 제한이 있을 수 있습니다."
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다음"
+            android:textColor="#FFFFFF"
+            android:background="#8041D9"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
